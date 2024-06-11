@@ -1029,7 +1029,7 @@
             <button class="btn btn-outline-success" onclick="window.location.href='./login.php'">Admin</button>
         </div>
     </div>
-    <!-- <p>Deepan</p> -->
+     <p>Deepan</p> 
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
