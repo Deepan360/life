@@ -362,7 +362,6 @@
 .contact .btn {
     width: 100%;
 }
-/* Media Queries */
 @media (max-width: 768px) {
     .contact {
         padding: 30px;
@@ -441,7 +440,6 @@
     color: #333;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .map {
         padding: 30px;
@@ -521,8 +519,6 @@
     color: #666;
     margin-top: 10px;
 }
-
-/* Media Queries */
 @media (max-width: 768px) {
     .founder {
         padding: 30px;
@@ -662,7 +658,7 @@
                         <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="./services.php">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -676,13 +672,13 @@
                 </ul>
             </div>
         </div>
-    </nav>
+</nav>
 
 
 
 
         <!-- Hero Section with Carousel -->
-        <section class="hero">
+<section class="hero">
     <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active" style="background-image: url('./life-insurance-concept-with-red-heart.jpg');">
@@ -764,10 +760,11 @@
             </div>
         </div>
     </div>
+  <div class="d-flex justify-content-center py-3">
+  <button type="button" class="btn btn-primary d-flex justify-content-center" onclick="window.location.href='./services.php'">Go to Services</button>
+    </div>
 </section>
 
-
-        <!-- About Us Section -->
 <!-- About Us Section -->
 <section id="about" class="about py-5 bg-light" >
     <div class="container">
@@ -888,6 +885,7 @@
         </div>
     </div>
 </section>
+
 <section id="founder" class="founder py-5 bg-light" >
     <div class="container">
         <h2 class="text-center mb-5">Meet Our Founder</h2>
@@ -999,13 +997,9 @@
     </div>
 </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<div class="container">
-    
-</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <footer class="footer mt-5">
     <div class="container">
@@ -1029,7 +1023,6 @@
             <button class="btn btn-outline-success" onclick="window.location.href='./login.php'">Admin</button>
         </div>
     </div>
-     <p>Deepan</p> 
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -3,8 +3,8 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $servername = "localhost";
-$username = "anand";
-$password = "AnandLife@123";
+$username = "root";
+$password = "pass@123";
 $dbname = "life";
 $port = 3306; 
 
