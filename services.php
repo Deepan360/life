@@ -525,7 +525,7 @@
                             <p class="card-text">
                                 Our marriage consultancy services are designed to help you build a strong and lasting relationship. From pre-marital counseling to ongoing relationship advice, we've got you covered.
                             </p>
-                            <a href="#" class="btn btn-outline-light">Learn More</a>
+                            <a href="./marriageservice.php" class="btn btn-outline-light">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -654,7 +654,7 @@
                             <p class="card-text">
                                 Achieve your financial goals with our expert advice. Whether it's personal finance, investment strategies, or business financial planning, we provide comprehensive financial consultancy.
                             </p>
-                            <a href="#" class="btn btn-outline-light">Learn More</a>
+                            <a href="./financeservice.php" class="btn btn-outline-light">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -783,7 +783,7 @@
                             <p class="card-text">
                                 Transform your life with our life coaching services. We offer personalized coaching sessions to help you overcome challenges, set goals, and achieve your dreams.
                             </p>
-                            <a href="#" class="btn btn-outline-light">Learn More</a>
+                            <a href="./lifeservice.php" class="btn btn-outline-light">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -877,7 +877,7 @@
                             <p class="card-text">
                                 Enhance your career with our consultancy services. From career assessment to interview coaching, we offer comprehensive support to help you achieve your professional goals.
                             </p>
-                            <a href="#" class="btn btn-outline-light">Learn More</a>
+                            <a href="./careerservice.php" class="btn btn-outline-light">Learn More</a>
                         </div>
                     </div>
                 </div>
