@@ -333,6 +333,30 @@
         .small{
             width: 200px !important;
         }
+        .jumbotron-custom {
+            background-image: url('your-image-url.jpg'); /* Add your background image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+        .jumbotron-custom::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Add a dark overlay */
+            z-index: 1;
+        }
+        .jumbotron-content {
+            position: relative;
+            z-index: 2;
+        }
+
     </style>
        
     </head>
@@ -359,7 +383,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>    
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -377,66 +401,127 @@
         </div>
     </nav>
 
+    <section id="services">
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Our Services</h1>
+            <p class="col-md-8 fs-4">
+                We offer a range of consultancy services tailored to your needs. Explore our services below to find the right support for you.
+            </p>
+        </div>
+    </div>
 
-
-
-
-
-        <!-- Services Section -->
-<section id="services" class="services py-5" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center mb-5" data-aos="fade-up">Our Services</h2>
+    <!-- Marriage Consultancy Services -->
+    <div class="container py-5">
+        <h2 class="fw-bold">Marriage Consultancy Services</h2>
         <div class="row">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="card">
-                    <img src="./istockphoto-1314780540-612x612.jpg" class="card-img-top" alt="Marriage" />
-                    <div class="card-body">
-                        <p class="card-text">
-                            We provide comprehensive marriage counseling and support services to help you build a strong and healthy relationship.
-                        </p>
-                    </div>
-                    <div class="card-title-container">
-                        <h5 class="card-title">Marriage</h5>
-                    </div>
-                </div>
+            <!-- List of Marriage Consultancy Services -->
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-heart"></i> Pre-Marital Counseling</li>
+                    <li class="list-group-item"><i class="fas fa-handshake"></i> Conflict Resolution</li>
+                    <li class="list-group-item"><i class="fas fa-comments"></i> Communication Skills</li>
+                    <li class="list-group-item"><i class="fas fa-heartbeat"></i> Marriage Enrichment</li>
+                    <li class="list-group-item"><i class="fas fa-child"></i> Parenting Support</li>
+                    <li class="list-group-item"><i class="fas fa-heart-broken"></i> Infidelity Recovery</li>
+                    <li class="list-group-item"><i class="fas fa-user-alt-slash"></i> Separation Advice</li>
+                </ul>
             </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="card">
-                    <img src="./istockphoto-1311598658-612x612.jpg" class="card-img-top" alt="Finance" />
-                    <div class="card-body">
-                        <p class="card-text">
-                            Our financial planning services are designed to help you manage your money effectively and achieve your financial goals.
-                        </p>
-                    </div>
-                    <div class="card-title-container">
-                        <h5 class="card-title">Finance</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="card">
-                    <img src="./depositphotos_75481827-stock-photo-happy-family-jumping-together-on.jpg" class="card-img-top" alt="Life" />
-                    <div class="card-body">
-                        <p class="card-text">
-                            We offer life coaching and personal development services to help you live a fulfilling and balanced life.
-                        </p>
-                    </div>
-                    <div class="card-title-container">
-                        <h5 class="card-title">Life</h5>
-                    </div>
+            <div class="col-md-8">
+                <div class="p-5 text-white bg-secondary border rounded-3">
+                    <h3>Detailed Information</h3>
+                    <p>
+                        Our marriage consultancy services are designed to help you build a strong and lasting relationship. From pre-marital counseling to ongoing relationship advice, we've got you covered.
+                    </p>
+                    <button class="btn btn-outline-light" type="button">
+                        Learn More
+                    </button>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+
+    <!-- Financial Consultancy Services -->
+    <div class="container py-5">
+        <h2 class="fw-bold">Financial Consultancy Services</h2>
+        <div class="row">
+            <!-- List of Financial Consultancy Services -->
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-wallet"></i> Personal Finance Planning</li>
+                    <li class="list-group-item"><i class="fas fa-chart-line"></i> Investment Strategies</li>
+                    <li class="list-group-item"><i class="fas fa-piggy-bank"></i> Retirement Planning</li>
+                    <li class="list-group-item"><i class="fas fa-file-invoice-dollar"></i> Tax Optimization</li>
+                    <li class="list-group-item"><i class="fas fa-hand-holding-usd"></i> Debt Management</li>
+                    <li class="list-group-item"><i class="fas fa-scroll"></i> Estate Planning</li>
+                    <li class="list-group-item"><i class="fas fa-shield-alt"></i> Insurance Consulting</li>
+                    <li class="list-group-item"><i class="fas fa-coins"></i> Wealth Management</li>
+                    <li class="list-group-item"><i class="fas fa-calculator"></i> Budgeting Advice</li>
+                    <li class="list-group-item"><i class="fas fa-chart-pie"></i> Credit Score Improvement</li>
+                    <li class="list-group-item"><i class="fas fa-business-time"></i> Business Financial Planning</li>
+                    <li class="list-group-item"><i class="fas fa-save"></i> Savings Strategies</li>
+                    <li class="list-group-item"><i class="fas fa-comments-dollar"></i> Loan Consultation</li>
+                    <li class="list-group-item"><i class="fas fa-exclamation-triangle"></i> Risk Management</li>
+                    <li class="list-group-item"><i class="fas fa-chalkboard-teacher"></i> Financial Education</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="p-5 text-white bg-primary border rounded-3">
+                    <h3>Detailed Information</h3>
+                    <p>
+                        Achieve your financial goals with our expert advice. Whether it's personal finance, investment strategies, or business financial planning, we provide comprehensive financial consultancy.
+                    </p>
+                    <button class="btn btn-outline-light" type="button">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Life Coaching Services -->
+    <div class="container py-5">
+        <h2 class="fw-bold">Life Coaching Services</h2>
+        <div class="row">
+            <!-- List of Life Coaching Services -->
+            <div class="col-md-4">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fas fa-bullseye"></i> Goal Setting</li>
+                    <li class="list-group-item"><i class="fas fa-briefcase"></i> Career Coaching</li>
+                    <li class="list-group-item"><i class="fas fa-user-graduate"></i> Personal Development</li>
+                    <li class="list-group-item"><i class="fas fa-brain"></i> Stress Management</li>
+                    <li class="list-group-item"><i class="fas fa-clock"></i> Time Management</li>
+                    <li class="list-group-item"><i class="fas fa-heartbeat"></i> Health and Wellness</li>
+                    <li class="list-group-item"><i class="fas fa-balance-scale"></i> Work-Life Balance</li>
+                    <li class="list-group-item"><i class="fas fa-thumbs-up"></i> Motivational Coaching</li>
+                    <li class="list-group-item"><i class="fas fa-exchange-alt"></i> Life Transitions</li>
+                    <li class="list-group-item"><i class="fas fa-spa"></i> Mindfulness Coaching</li>
+                    <li class="list-group-item"><i class="fas fa-user-shield"></i> Confidence Building</li>
+                    <li class="list-group-item"><i class="fas fa-handshake"></i> Relationship Coaching</li>
+                    <li class="list-group-item"><i class="fas fa-praying-hands"></i> Spiritual Coaching</li>
+                    <li class="list-group-item"><i class="fas fa-comments"></i> Communication Skills</li>
+                    <li class="list-group-item"><i class="fas fa-user-tie"></i> Executive Coaching</li>
+                </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="p-5 text-white bg-success border rounded-3">
+                    <h3>Detailed Information</h3>
+                    <p>
+                        Transform your life with our life coaching services. We offer personalized coaching sessions to help you overcome challenges, set goals, and achieve your dreams.
+                    </p>
+                    <button class="btn btn-outline-light" type="button">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<div class="container">
-    
-</div>
 
 <footer class="footer mt-5 mb-0">
     <div class="container">
@@ -453,7 +538,7 @@
     </div>
 </footer>
 
-<footer class="footer mains mb-0">
+<footer class="footer mains">
     <div class="container">
         <div class="footer-content">
             <span>This web page is developed by Akilam Technology 🌏</span>

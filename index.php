@@ -716,7 +716,7 @@
 
         <!-- Services Section -->
 <section id="services" class="services py-5" data-aos="fade-up">
-    <div class="container">
+    <div class="container-fluid p-5">
         <h2 class="text-center mb-5" data-aos="fade-up">Our Services</h2>
         <div class="row">
             <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
