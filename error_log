@@ -1,0 +1,58 @@
+[11-Jun-2024 10:12:46 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo for sg2plzcpnl45 failed: Name or service not known in /home/s8tumi66wegx/public_html/db.php on line 12
+[11-Jun-2024 10:12:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo for sg2plzcpnl45 failed: Name or service not known in /home/s8tumi66wegx/public_html/db.php:12
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/db.php(12): mysqli->__construct()
+#1 /home/s8tumi66wegx/public_html/loginProcess.php(6): require('/home/s8tumi66w...')
+#2 {main}
+  thrown in /home/s8tumi66wegx/public_html/db.php on line 12
+[11-Jun-2024 10:14:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Connection refused in /home/s8tumi66wegx/public_html/db.php:12
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/db.php(12): mysqli->__construct()
+#1 /home/s8tumi66wegx/public_html/loginProcess.php(6): require('/home/s8tumi66w...')
+#2 {main}
+  thrown in /home/s8tumi66wegx/public_html/db.php on line 12
+[11-Jun-2024 10:16:26 UTC] PHP Warning:  Undefined variable $port in /home/s8tumi66wegx/public_html/db.php on line 12
+[11-Jun-2024 10:17:17 UTC] PHP Warning:  Undefined variable $port in /home/s8tumi66wegx/public_html/db.php on line 12
+[13-Jun-2024 10:34:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home/s8tumi66wegx/public_html/uploadVideo.php:16
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/uploadVideo.php(16): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/s8tumi66wegx/public_html/uploadVideo.php on line 16
+[13-Jun-2024 10:34:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home/s8tumi66wegx/public_html/uploadVideo.php:16
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/uploadVideo.php(16): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/s8tumi66wegx/public_html/uploadVideo.php on line 16
+[13-Jun-2024 10:35:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home/s8tumi66wegx/public_html/uploadVideo.php:16
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/uploadVideo.php(16): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home/s8tumi66wegx/public_html/uploadVideo.php on line 16
+[14-Jun-2024 04:23:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/s8tumi66wegx/public_html/videouploader.php:24
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/videouploader.php(24): mysqli->query()
+#1 {main}
+  thrown in /home/s8tumi66wegx/public_html/videouploader.php on line 24
+[14-Jun-2024 05:28:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'name' in 'field list' in /home/s8tumi66wegx/public_html/videoreapter.php:14
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/videoreapter.php(14): mysqli->query()
+#1 {main}
+  thrown in /home/s8tumi66wegx/public_html/videoreapter.php on line 14
+[20-Feb-2025 01:36:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/s8tumi66wegx/public_html/db.php:12
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/db.php(12): mysqli->__construct()
+#1 /home/s8tumi66wegx/public_html/index.php(3): require('/home/s8tumi66w...')
+#2 {main}
+  thrown in /home/s8tumi66wegx/public_html/db.php on line 12
+[20-Feb-2025 01:36:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/s8tumi66wegx/public_html/db.php:12
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/db.php(12): mysqli->__construct()
+#1 /home/s8tumi66wegx/public_html/index.php(3): require('/home/s8tumi66w...')
+#2 {main}
+  thrown in /home/s8tumi66wegx/public_html/db.php on line 12
+[20-Feb-2025 01:36:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/s8tumi66wegx/public_html/db.php:12
+Stack trace:
+#0 /home/s8tumi66wegx/public_html/db.php(12): mysqli->__construct()
+#1 /home/s8tumi66wegx/public_html/index.php(3): require('/home/s8tumi66w...')
+#2 {main}
+  thrown in /home/s8tumi66wegx/public_html/db.php on line 12

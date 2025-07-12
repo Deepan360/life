@@ -555,17 +555,110 @@ $conn->close();
             </svg>
         </button>
     </nav>
-
     <section id="services">
         <div class="p-5 mb-4 bg-light bg-gradient text-dark">
             <div class="container py-5 text-center">
-                <h1 class="display-4 fw-bold">Career Counseling Services</h1>
+                <h1 class="display-4 fw-bold">Career Counselling Services</h1>
                 <p class="col-md-8 mx-auto fs-5">
-                    "Career counseling is a crucial step in finding the right path for your professional journey. It's about discovering your strengths, exploring opportunities, and making informed decisions to achieve your career goals."
+                    "Career Counselling is a crucial step in finding the right path for your professional journey. It's about discovering your strengths, exploring opportunities, and making informed decisions to achieve your career goals."
                 </p>
             </div>
         </div>
+    </section>
 
+    <section id="job-counselling" class="py-5  text-dark">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 fw-bold">Career & Workplace Counselling Topics</h2>
+            <div class="row justify-content-center  shadow-md-6 ">
+                <div class="col-md-8 ">
+                    <ul class="list-group shadow-sm rounded-3 ">
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-user-tag text-success me-2"></i> Building personal branding through LinkedIn</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-file-alt text-success me-2"></i> Effective resume writing and corporate career growth</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-briefcase text-success me-2"></i> Exploring gig economy and multiple income streams</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-handshake text-success me-2"></i> Improving relationships with your boss and colleagues</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-user-shield text-success me-2"></i> How to deal with a difficult boss</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-user-check text-success me-2"></i> Cultivating the right attitude in the workplace</span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <span style="font-size:1.15rem; font-weight:bold;"><i class="fas fa-burn text-success me-2"></i> Coping with stress in the workplace</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about py-5 bg-grey">
+        <div class="container">
+            <h2 class="text-center text-dark display-4 fw-bold mb-5">What We Provide</h2>
+
+            <div class="text-center mb-4">
+                <img src="./careerrr.webp" class="img-fluid shake" alt="Career Counselling Image" />
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">ATS-Friendly Resume Assistance</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Optimizing your CV to increase the chance of getting past recruiter software (ATS).</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">LinkedIn Profile Enrichment</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Enhancing your LinkedIn profile to increase professional visibility.</li>
+                    <li class="list-group-item">Step-by-step course to update LinkedIn and utilize premium features effectively.</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">Corporate Life Preparation</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">A comprehensive course covering corporate English, workplace culture, identifying opportunities, handling conflict, and knowing when to switch jobs.</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">Why You Get Fewer Interview Calls</h4>
+                <p>
+                    Studies show over 75% of resumes are rejected by Applicant Tracking Systems (ATS). If your resume doesn't match job descriptions and keyword requirements, it may never reach a recruiter.
+                </p>
+                <p>
+                    Poor visibility in ATS and LinkedIn can delay opportunities, causing long-term negative effects on your salary and career trajectory.
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">Importance of LinkedIn</h4>
+                <p>
+                    LinkedIn is not just a digital resume—it’s your professional brand. While resumes are sent out, LinkedIn allows companies to discover and approach you directly.
+                </p>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="text-success mb-3">Why You Need an Enriched LinkedIn Profile</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Among 1 billion global users, India has over 100 million. LinkedIn is a top platform for career growth.</li>
+                    <li class="list-group-item">Your profile reflects your personal brand and professional image.</li>
+                    <li class="list-group-item">Top place for hiring and networking with professionals.</li>
+                    <li class="list-group-item">Builds credibility and trust with potential employers.</li>
+                    <li class="list-group-item">Keeps you updated on industry trends and news.</li>
+                    <li class="list-group-item">Improves your visibility on Google searches.</li>
+                    <li class="list-group-item">Gives you a competitive edge in today’s crowded job market.</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
 
@@ -577,116 +670,36 @@ $conn->close();
                         <div class="video-container">
                             <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
                         </div>
-                        <h4 class=" mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
+                        <h4 class="mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
                         <p class="mb-2"><?php echo htmlspecialchars($video['description']); ?></p>
-                        <!-- <div>
-                            <a href="https://www.youtube.com/watch?v=<?php echo htmlspecialchars($video['video_link']); ?>" class="btn btn-outline-success" target="_blank">Watch Video</a>
-                        </div> -->
                     </div>
                 <?php else : ?>
-                    <p>No video found.</p>
+                    <p class="text-center">No video found.</p>
                 <?php endif; ?>
             </div>
         </div>
     </section>
-
-    <section class="about py-5 bg-grey">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-
-                        <div class="col-md-12">
-                            <h2 class="text-center text-dark display-4 fw-bold mb-4">What We Provide</h2>
-                            <div class="col-md-12 d-flex align-items-center justify-content-center" data-aos="fade-right">
-                                <img src="./careerrr.webp" class="img-fluid shake" alt="About Us">
-                            </div>
-                            <ul class="list-group">
-                                <li class="list-group-item">ATS friendly resume formatting, Make your CV more likely to reach the recruiter.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-
-                        <div class="col-md-12">
-                            <h3 class="text-center text-dark  mb-4">LinkedIn Profile Enrichment</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item">LinkedIn profile enriching service, for more visibility.</li>
-                                <li class="list-group-item">Course on updating LinkedIn profile and understanding of premium features.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-
-                        <div class="col-md-12">
-                            <h3 class="text-center text-dark  mb-4">Corporate Life Preparation</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item">Corporate life- Small changes make a big difference. A course on a buffet of corporate preparedness- corporate English, understanding corporate culture, identifying prospects and growth, Coping up with difficult people, When to switch jobs, etc.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-
-                        <div class="col-md-12">
-                            <h3 class="text-center text-dark  mb-4">Reasons for Getting Less Interview Calls</h3>
-                            <p>
-                                Do you know a study suggests that 75% of resumes are often rejected by AI software. Over 98% of Fortune 500 companies use Applicant Tracking Systems (ATS). If your CV is rejected, you will never face any interview. The software is advanced enough to reject CVs by pasting the entire job description, repeating the keywords.
-                            </p>
-                            <p>
-                                If your profile is not picked by the Applicant Tracking Systems (ATS), then your CV and LinkedIn profile need an assessment. A delayed job opportunity in initial years will have a huge adverse compounding effect on your CTC and career growth.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-
-                        <div class="col-md-12">
-                            <h3 class="text-center text-dark  mb-4">Importance of LinkedIn</h3>
-                            <p>
-                                You can’t take the clientele with you when you switch jobs. So your network is more important as it is created by you. Here is why LinkedIn is more important. CVs are submitted for job opportunities but LinkedIn profile allows employers to initiate contact with the cream of corporate professionals and industries.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row mt-4">
-
-                        <div class="col-md-12">
-                            <h3 class="text-center text-dark  mb-4">Why an Enriched LinkedIn Profile is Needed</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item">With 100 crore users worldwide, Indians are about 1 crore. LinkedIn is now one of the most powerful professional tools and networking platforms for career growth.</li>
-                                <li class="list-group-item">Brand creation by LinkedIn – Your LinkedIn profile is an extension of your personal brand.</li>
-                                <li class="list-group-item">Best Place to Get Hired and an opportunity to connect with corporate professionals.</li>
-                                <li class="list-group-item">LinkedIn Profile Builds Credibility and Trust.</li>
-                                <li class="list-group-item">Keep Updated on Industry Knowledge.</li>
-                                <li class="list-group-item">It can help rank your name on Google.</li>
-                                <li class="list-group-item">Online presence that can help you to stand out in a crowded job market.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="footer    mb-0">
-        <div class="container">
-            <h1>Welcome to Our Counseling Center</h1>
-            <p>Our mission is to provide quality mental health services to our community.</p>
-            <div class="footer-content">
-                <span>Stay Connected with Us</span>
-                <div class="social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-5 bg-dark text-light py-4">
+        <div class="container text-center">
+            <h3 class="mb-3">Welcome to Our Counselling Center</h3>
+            <p class="mb-4">Our mission is to provide quality mental health services to our community.</p>
+            <div class="footer-content d-flex flex-column align-items-center">
+                <span class="mb-2">Stay Connected with Us</span>
+                <div class="social-media d-flex gap-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-light fs-4" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-light fs-4" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank" class="text-light fs-4" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -699,6 +712,7 @@ $conn->close();
             </div>
         </div>
     </footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

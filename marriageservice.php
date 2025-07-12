@@ -188,8 +188,6 @@ $conn->close();
             flex-direction: column;
         }
 
-
-
         nav {
             font-family: sans-serif;
             background-color: #7bbb4d !important;
@@ -524,8 +522,6 @@ $conn->close();
 </head>
 
 <body>
-
-
     <nav class="navbar navbar-expand-lg navbar-light fixed-top transparent custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -555,52 +551,129 @@ $conn->close();
             </svg>
         </button>
     </nav>
-
     <section id="services">
         <div class="p-5 mb-4 bg-light bg-gradient text-dark">
             <div class="container   py-5 text-center">
-                <h1 class="display-4 fw-bold">Marriage Counseling Services</h1>
+                <h1 class="display-4 fw-bold">Marriage Counselling Services</h1>
                 <p class="col-md-8 mx-auto fs-5">
                     "Marriage is not just a union of two souls, but a journey together, hand in hand, through every moment, whether it's joyous or challenging."
                 </p>
             </div>
         </div>
-
-
-
-
-
-
-
-
     </section>
-
-
-    <section>
-        <div class="container-fluid mt-4">
-            <div class="video-card align-items-center text-dark">
-                <?php if ($video !== null) : ?>
-                    <div class="video-item text-center" id="video-<?php echo htmlspecialchars($video['id']); ?>">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
-                        </div>
-                        <h4 class=" mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
-                        <p class="mb-2"><?php echo htmlspecialchars($video['description']); ?></p>
-                        <!-- <div>
-                            <a href="https://www.youtube.com/watch?v=<?php echo htmlspecialchars($video['video_link']); ?>" class="btn btn-outline-success" target="_blank">Watch Video</a>
-                        </div> -->
-                    </div>
-                <?php else : ?>
-                    <p>No video found.</p>
-                <?php endif; ?>
+    <section id="marriage-relationships" class="py-5 bg-white text-dark">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 fw-bold">Marriage & Relationship Counselling</h2>
+            <div class="row g-4">
+                <div class="col-md-6 shadow-md-6">
+                    <ul class="list-group shadow-sm rounded-3">
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-user-check text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Pre-marital counselling. How to spot a red flag in a man and a woman before marriage?​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-heart-broken text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Counselling on marital differences and understanding what kills a marriage.​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-users text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Relationship with parents and siblings
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-hand-holding-heart text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How to deal with breakups?
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-rupee-sign text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Money and relationships
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-skull-crossbones text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How to deal with a Toxic relationship?
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-user-secret text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How to identify narcissistic behavior in the family?​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-brain text-success me-2" ></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How to deal with gaslighting and narcissism?
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 shadow-md-6">
+                    <ul class="list-group shadow-sm rounded-3">
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-map-signs text-success me-2"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How to choose the right job, place, and spouse for a happy life.
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-sliders-h text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How variables affect our lives and how to get control of our lives.​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-lightbulb text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                What is the Purpose of life– 25 Practical tips for Happy living​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-smile-beam text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                How Money can give you happiness
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-wallet text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Financial wisdom- Money mindset for happiness in relation​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-palette text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Art of creative passive income
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-gem text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Understanding the difference between Rich vs wealthy​
+                            </span>
+                        </li>
+                        <li class="list-group-item border-0">
+                            <i class="fas fa-hourglass-half text-success me-2" style="font-size:1.15rem;"></i>
+                            <span style="font-size:1.15rem; font-weight:bold;">
+                                Understanding time and how to buy time in life​
+                            </span>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
-
-
-
     <!-- About Us Section -->
-    <section class="about py-5  bg-grey">
+    <section class="about py-5  bg-light">
         <div class="container">
             <h2 class="text-center text-dark display-4 fw-bold mb-5" data-aos="fade-up">Pre Marital counselling</h2>
             <div class="row">
@@ -622,24 +695,49 @@ $conn->close();
             </div>
         </div>
     </section>
-
-
-
+    <section>
+        <div class="container-fluid mt-4">
+            <div class="video-card align-items-center text-dark">
+                <?php if ($video !== null) : ?>
+                    <div class="video-item text-center" id="video-<?php echo htmlspecialchars($video['id']); ?>">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
+                        </div>
+                        <h4 class=" mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
+                        <p class="mb-2"><?php echo htmlspecialchars($video['description']); ?></p>
+                        <!-- <div>
+                            <a href="https://www.youtube.com/watch?v=<?php echo htmlspecialchars($video['video_link']); ?>" class="btn btn-outline-success" target="_blank">Watch Video</a>
+                        </div> -->
+                    </div>
+                <?php else : ?>
+                    <p>No video found.</p>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="footer    mb-0">
-        <div class="container">
-            <h1>Welcome to Our Counseling Center</h1>
-            <p>Our mission is to provide quality mental health services to our community.</p>
-            <div class="footer-content">
-                <span>Stay Connected with Us</span>
-                <div class="social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-5 bg-dark text-light py-4">
+        <div class="container text-center">
+            <h3 class="mb-3">Welcome to Our Counselling Center</h3>
+            <p class="mb-4">Our mission is to provide quality mental health services to our community.</p>
+            <div class="footer-content d-flex flex-column align-items-center">
+                <span class="mb-2">Stay Connected with Us</span>
+                <div class="social-media d-flex gap-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-light fs-4" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-light fs-4" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank" class="text-light fs-4" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -656,8 +754,6 @@ $conn->close();
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>

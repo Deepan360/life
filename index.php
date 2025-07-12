@@ -52,6 +52,10 @@ $conn->close();
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+        .bg-vibe {
+            background-color: #198754 !important;
+        }
+
         body {
             font-family: "Roboto", sans-serif;
             line-height: 1.6;
@@ -260,7 +264,7 @@ $conn->close();
         #about h3 {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #198754;
+            color: rgb(255, 255, 255);
         }
 
         .nav-link {
@@ -801,31 +805,29 @@ $conn->close();
         </div>
     </nav>
 
-
-
-
     <!-- Hero Section with Carousel -->
     <section class="hero">
         <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active" style="background-image: url('./life-insurance-concept-with-red-heart.jpg');">
                     <div class="hero-content">
-                        <h1>Welcome to Anandamana Life</h1>
-                        <p>An insight and Clarity on relationships</p>
+                        <h1>Relationship and marriage</h1>
+                        <p>Counselling on Marital & Family issue​</p>
                         <a href="#services" class="btn btn-success btn-lg">Explore Services</a>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('./market-share-challenge-competitor-excellent-growing.jpg');">
                     <div class="hero-content">
-                        <h1>Comprehensive Health Solutions</h1>
-                        <p>An insight and Clarity on career and Finance</p>
+                        <h1>Carrer </h1>
+                        <p>Resume, LinkedIn, Career counselling​</p>
                         <a href="#services" class="btn btn-success btn-lg">Explore Services</a>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('./working-mother-analyzing-reports-while-using-laptop-home.jpg');">
                     <div class="hero-content">
-                        <h1>Expert Consultation</h1>
-                        <p>An insight and Clarity in Life</p>
+                        <h1>Real estate and finance</h1>
+                        <p>Property selection, Vastu, Inheritance
+                        </p>
                         <a href="#services" class="btn btn-success btn-lg">Explore Services</a>
                     </div>
                 </div>
@@ -852,31 +854,38 @@ $conn->close();
                             <img src="./istockphoto-1314780540-612x612.jpg" class="card-img-top" alt="Marriage" />
                             <div class="card-body">
                                 <p class="card-text">
-                                <ul class="card-points">
+                                <ul class="card-points text-left">
                                     Insight and clarity on
-                                    <li>Compatibility issues</li>
-                                    <li>Financial issues</li>
-                                    <li>Family and future issues</li>
+                                    <li>Pre-marital counselling
+                                    </li>
+                                    <li>Counselling on family issues & breakups
+                                    </li>
+                                    <li>Deal with a Toxic relationship
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
                             <div class="card-title-container">
-                                <h5 class="card-title">Marriage</h5>
+                                <h5 class="card-title">Relationship and marriage</h5>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col" data-aos="fade-up" data-aos-delay="200">
                     <a href="./careerservice.php" class="card-link">
                         <div class="card">
                             <img src="./carrer.jpg" class="card-img-top" alt="career" />
                             <div class="card-body">
                                 <p class="card-text">
-                                <ul class="card-points">
+                                <ul class="card-points text-left">
                                     Insight and clarity on
-                                    <li>CV assessment</li>
-                                    <li>LinkedIn Profile enrichment</li>
-                                    <li>Corporate growths</li>
+                                    <li>Branding through LinkedIn
+                                    </li>
+                                    <li>Corporate growth & Gig economy
+                                    </li>
+                                    <li>Dealing with stress & a difficult boss
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
@@ -892,27 +901,30 @@ $conn->close();
                             <img src="./istockphoto-1311598658-612x612.jpg" class="card-img-top" alt="Finance" />
                             <div class="card-body">
                                 <p class="card-text">
-                                <ul class="card-points">
+                                <ul class="card-points text-left">
                                     Insight and clarity on
-                                    <li>Personal finances</li>
-                                    <li>Wealth creating assets</li>
-                                    <li>Bonus yielding assets</li>
+                                    <li>Income through Real estate
+                                    </li>
+                                    <li>Selecting Flat & plot as per Vastu
+                                    </li>
+                                    <li>Will, Inheritance & Asset restructuring 
+                                    </li>
                                 </ul>
                                 </p>
                             </div>
                             <div class="card-title-container">
-                                <h5 class="card-title">Finance</h5>
+                                <h5 class="card-title">Real estate and finance</h5>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-delay="400">
+                <!-- <div class="col" data-aos="fade-up" data-aos-delay="400">
                     <a href="./lifeservice.php" class="card-link">
                         <div class="card">
                             <img src="./depositphotos_75481827-stock-photo-happy-family-jumping-together-on.jpg" class="card-img-top" alt="Life" />
                             <div class="card-body">
                                 <p class="card-text">
-                                <ul class="card-points">
+                                <ul class="card-points  text-left">
                                     Insight and clarity on
                                     <li>Self Happiness</li>
                                     <li>Relationship issues</li>
@@ -925,7 +937,7 @@ $conn->close();
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="d-flex justify-content-center py-3">
@@ -933,28 +945,26 @@ $conn->close();
         </div>
     </section>
 
-
-
     <!-- About Us Section -->
-    <section id="about" class="about py-5 bg-light">
+    <section id="about" class="about py-5 bg-vibe">
         <div class="container">
-            <h2 class="text-center mb-5" data-aos="fade-up">About Us</h2>
+            <h2 class="text-center mb-5 text-white" data-aos="fade-up">About Us</h2>
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center" data-aos="fade-right">
                     <img src="./istockphoto-1284448501-612x612.jpg" class="img-fluid shake" alt="About Us" />
                 </div>
                 <div class="col-md-6" data-aos="fade-left">
                     <h3>Welcome To Anandamana Life</h3>
-                    <p>
-                        We specialize in providing pre marital counseling, financial planning, and linsigh in life for happiness Our mission is to support and empower individuals and couples to build healthy relationships, achieve financial stability, and lead fulfilling lives. Our team of experienced professionals is dedicated to offering personalized advice and tailored solutions to meet your unique needs.
+                    <p class="text-white">
+                        We specialize in providing pre marital counselling, family disputes, Real estate, and insight into life for happiness. Our mission is to support and empower individuals and couples to build healthy relationships, achieve financial stability, and lead fulfilling lives. Our team of experienced professionals is dedicated to offering personalized advice and tailored solutions to meet your unique needs.
                     </p>
                     <h3>Our Mission</h3>
-                    <p>
-                        Anandamana Life offers expert advice and support to help you strengthen your relationship through marriage counseling. Our financial planning services help you manage your finances effectively and achieve your goals. We believe in a holistic approach to well-being, ensuring that every aspect of your personal and financial life is nurtured and optimized.
+                    <p class="text-white">
+                        Anandamana Life offers expert advice and support to help you strengthen your relationship through marriage counseling. Our Happiness course and financial wisdom course helps you manage your life effectively and achieve your goals. We make you earn money through real estate and own multiple properties. We believe in a holistic approach to well-being, ensuring that every aspect of your personal and financial life is nurtured and optimized.
                     </p>
                     <h3>Why Choose Us</h3>
-                    <p>
-                        At Anandamana Life, we are committed to your success and well-being. Our counselors and coaches are having extensive experience in their respective fields. We offer a safe and confidential environment where you can discuss your concerns and aspirations freely. Our goal is to help you navigate life's challenges with confidence and clarity, empowering you to make informed decisions and take proactive steps towards a brighter future.
+                    <p class="text-white">
+                        At Anandamana Life, we are committed to your success and well-being. Our counselors and coaches have extensive experience in their respective fields. We offer a safe and confidential environment where you can discuss your concerns and aspirations freely. Our goal is to help you navigate life's challenges with confidence and clarity, empowering you to make informed decisions and take proactive steps towards a brighter future.
                     </p>
                 </div>
             </div>
@@ -966,28 +976,27 @@ $conn->close();
             <div class="row">
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="testimonial-item text-center rounded-4 border p-4">
-                        <p class="text-muted">"The counseling services provided here are exceptional. The counselor was very understanding and helped me through a difficult time in my life."</p>
+                        <p class="text-muted">"The Counselling services provided here are exceptional. The counselor was very understanding and helped me through a difficult time in my life."</p>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="testimonial-item text-center rounded-4  border p-4">
-                        <p class="text-muted">"I'm extremely grateful for the support I received from the counseling center. The counselor listened attentively and provided valuable insights."</p>
+                        <p class="text-muted">"I'm extremely grateful for the support I received from the Counselling center. The counselor listened attentively and provided valuable insights."</p>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="testimonial-item text-center  rounded-4 b-success border p-4">
-                        <p class="text-muted">"Highly recommend this counseling center! The counselor was professional, empathetic, and helped me gain clarity in my life."</p>
+                        <p class="text-muted">"Highly recommend this Counselling center! The counselor was professional, empathetic, and helped me gain clarity in my life."</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section id="vidmedia" class="team py-5 bg-light">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center mb-5">
-                <h2 class="text-center" data-aos="fade-up">Counseling Videos</h2>
+                <h2 class="text-center" data-aos="fade-up">Counselling Videos</h2>
                 <a href="media.php" class="btn btn-primary" data-aos="fade-left">View More <i class="fas fa-arrow-right"></i></a>
             </div>
             <div class="row justify-content-center">
@@ -1012,40 +1021,55 @@ $conn->close();
         </div>
     </section>
 
-
-
     <section id="map" class="map py-5">
         <div class="container-fluid">
+            <!-- Logo Section -->
+            <div class="text-center mb-4">
+                <img src="logo.png" alt="Company Logo" style="height: 70px;">
+                <!-- Replace 'logo.png' with the correct image path -->
+            </div>
+
             <h2 class="text-center">Touch With Us</h2>
             <div class="contact-info text-center">
                 <p>
-                    <strong>Phone:</strong> <a href="tel:9363047018" id="phone">9363047018</a>
+                    <strong>Phone (WhatsApp & Telegram):</strong>
+                    <a href="https://wa.me/7305785165" id="phone">7305785165</a>
                 </p>
                 <p>
-                    <strong>Email:</strong> <a href="anandamanalife@gmail.com" id="email">anandamanalife@gmail.com</a>
-                </p>
-            </div>
-            <div class="container ">
-                <h4 class="text-center ">Location:</h4>
-                <p class="text-center">
-                    Plot No 19,<br>
-                    2nd Main Road, Vignesh Nagar, Kattur,<br>
-                    Tiruchirappalli 620019
+                    <strong>Email:</strong>
+                    <a href="mailto:anandamanalife@gmail.com" id="email">anandamanalife@gmail.com</a>
                 </p>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="map-container mb-4" data-aos="zoom-in">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1345968639007!2d78.74997767573615!3d10.801001758738522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf36139eb8283%3A0x727d6c12c62d80e4!2s19%2C%202nd%20Main%20St%2C%20Kailash%20Nagar%2C%20Pappakurichi%20Kattur%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620019!5e0!3m2!1sen!2sin!4v1718705236315!5m2!1sen!2sin" width="100%" height="550" style="border:3px solid #5fd7b4;" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </div>
+            <!-- Location Section (Optional: Uncomment if needed) -->
+            <!--
+        <div class="container">
+            <h4 class="text-center">Location:</h4>
+            <p class="text-center">
+                Plot No 19,<br>
+                2nd Main Road, Vignesh Nagar, Kattur,<br>
+                Tiruchirappalli 620019
+            </p>
+        </div>
+        -->
+
+            <!-- Google Map (Optional: Uncomment if needed) -->
+            <!--
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="map-container mb-4" data-aos="zoom-in">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1345968639007!2d78.74997767573615!3d10.801001758738522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf36139eb8283%3A0x727d6c12c62d80e4!2s19%2C%202nd%20Main%20St%2C%20Kailash%20Nagar%2C%20Pappakurichi%20Kattur%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620019!5e0!3m2!1sen!2sin!4v1718705236315!5m2!1sen!2sin"
+                        width="100%" height="550" style="border:3px solid #5fd7b4;" allowfullscreen="" loading="lazy">
+                    </iframe>
                 </div>
             </div>
         </div>
+        -->
+        </div>
     </section>
 
-    <section id="founder" class="founder py-5 bg-light">
+
+    <!-- <section id="founder" class="founder py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-5">Meet Our Founder</h2>
             <div class="row justify-content-center align-items-center">
@@ -1062,93 +1086,57 @@ $conn->close();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="faq" class="faq py-5">
+    <section id="faq" class="faq py-2">
         <div class="container">
             <h2 class="text-center mb-5">Frequently Asked Questions</h2>
             <div class="accordion" id="faqAccordion">
-                <div class="card" data-aos="fade-right" data-aos-delay="100">
-                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link">
-                                What types of counseling services do you offer?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            We offer a variety of counseling services including individual therapy, couples therapy, family counseling, and group therapy. Our services are designed to help with issues such as anxiety, depression, relationship problems, and more.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What types of counselling services do you offer?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer counselling for family relations, real estate decisions, career guidance, and more. You can book a session via call or WhatsApp.
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="fade-right" data-aos-delay="200">
-                    <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed">
-                                How do I schedule an appointment?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            You can schedule an appointment by calling our office at (123) 456-7890, emailing us at contact@counselingcenter.com, or filling out the appointment request form on our website. Our staff will assist you in finding a convenient time for your session.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How can counselling help me?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Counselling helps bring clarity to your issues and provides a better understanding of the dynamics of a situation, enabling you to navigate life effectively.
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="fade-right" data-aos-delay="300">
-                    <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed">
-                                What should I expect during my first session?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            During your first session, your counselor will get to know you and discuss your goals for therapy. This initial session is an opportunity for you to ask questions and determine if the counselor is a good fit for you. You will also discuss confidentiality and therapy policies.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Do you accept insurance?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We do not accept insurance at this time.
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="fade-right" data-aos-delay="400">
-                    <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed">
-                                Are your services confidential?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Yes, our counseling services are confidential. We adhere to strict confidentiality guidelines to ensure your privacy and trust. Your information will not be shared without your consent, except in cases where we are legally required to do so.
-                        </div>
-                    </div>
-                </div>
-                <div class="card" data-aos="fade-right" data-aos-delay="500">
-                    <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed">
-                                Do you accept insurance?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Yes, we accept a variety of insurance plans. Please contact our office to verify if your insurance is accepted and to understand the coverage details. We also offer sliding scale fees for clients without insurance.
-                        </div>
-                    </div>
-                </div>
-                <div class="card" data-aos="fade-right" data-aos-delay="600">
-                    <div class="card-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                        <h2 class="mb-0">
-                            <button class="btn btn-link collapsed">
-                                What are your hours of operation?
-                            </button>
-                        </h2>
-                    </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Our hours of operation are Monday to Friday, 9 AM to 7 PM. We also offer weekend appointments upon request. Please contact us to schedule a session that fits your availability.
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What are your working hours?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We are available from **9 a.m. to 9 p.m., Monday to Sunday**. Please contact us to schedule a session that fits your availability.
                         </div>
                     </div>
                 </div>
@@ -1160,20 +1148,28 @@ $conn->close();
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="footer mt-5">
-        <div class="container">
-            <h1>Welcome to Our Counseling Center</h1>
-            <p>Our mission is to provide quality mental health services to our community.</p>
-            <div class="footer-content">
-                <span>Stay Connected with Us</span>
-                <div class="social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-5 bg-dark text-light py-4">
+        <div class="container text-center">
+            <h3 class="mb-3">Welcome to Our Counselling Center</h3>
+            <p class="mb-4">Our mission is to provide quality mental health services to our community.</p>
+            <div class="footer-content d-flex flex-column align-items-center">
+                <span class="mb-2">Stay Connected with Us</span>
+                <div class="social-media d-flex gap-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-light fs-4" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-light fs-4" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank" class="text-light fs-4" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <footer class="footer mains">
         <div class="container">
@@ -1183,6 +1179,7 @@ $conn->close();
             </div>
         </div>
     </footer>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>

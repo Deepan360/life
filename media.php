@@ -79,11 +79,20 @@ $conn->close();
 <html lang="en">
 
 <head>
-    <title>Anadhamana Life</title>
+    <title>Anandamana Life</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -239,58 +248,6 @@ $conn->close();
             .video-card .video-item {
                 max-width: 100%;
             }
-        }
-
-        .video-item {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-        }
-
-        .video-container {
-            flex: 1;
-            /* Fill remaining space */
-        }
-
-        .video-item h5 {
-            margin-bottom: 10px;
-        }
-
-        .video-item p {
-            flex-grow: 1;
-            /* Fill remaining space */
-            margin-bottom: 10px;
-        }
-
-        .video-item .btn {
-            align-self: flex-end;
-            /* Align button to the bottom */
-        }
-
-        /* Adjust card-body styles */
-        .card-body {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 10px;
-            opacity: 0;
-            transform: translateY(100%);
-            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-        }
-
-        /* Adjust hover effect */
-        .video-item:hover .card-body {
-            transform: translateY(0);
-            opacity: 1;
-        }
-
-        /* Adjust border and color on hover */
-        .video-item:hover {
-            border-color: #198754 !important;
-            color: #198754 !important;
         }
 
         .footer {
@@ -567,14 +524,29 @@ $conn->close();
                 width: 300px !important;
             }
         }
+
+        .navbar-brand img {
+            height: 40px;
+            margin-right: 10px;
+        }
     </style>
 </head>
 
 <body>
     <nav class="navbar ms-0 navbar-expand-lg bg-success">
         <div class="container-fluid ">
-            <a class="navbar-brand" href="#">Anandamana Life</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">
+                <img src="/logo.png" alt="Anandamana Life Logo">
+                Anandamana Life
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -599,20 +571,20 @@ $conn->close();
                         <span class="input-group-text"><i class="bi bi-filter"></i></span>
                         <select id="categoryFilter" class="form-select" name="category" onchange="document.getElementById('categoryForm').submit()">
                             <option value="">All Categories</option>
-                            <?php foreach ($categories as $id => $category) : ?>
+                            <?php foreach ($categories as $id => $category): ?>
                                 <option value="<?php echo htmlspecialchars($category); ?>" <?php echo $selected_category_name == $category ? 'selected' : ''; ?>>
                                     <?php echo htmlspecialchars($category); ?>
                                 </option>
                             <?php endforeach; ?>
                         </select>
-                        <?php if ($selected_category_name !== '') : ?>
+                        <?php if ($selected_category_name !== ''): ?>
                             <button type="button" class="btn btn-cancel" onclick="window.location.href='media.php'"><i class="bi bi-x-lg"></i></button>
                         <?php endif; ?>
                     </div>
                 </form>
             </div>
             <div class="video-card text-dark">
-                <?php foreach ($videos as $video) : ?>
+                <?php foreach ($videos as $video): ?>
                     <div class="video-item" id="video-<?php echo htmlspecialchars($video['id']); ?>">
                         <div class="video-container">
                             <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
@@ -671,8 +643,14 @@ $conn->close();
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

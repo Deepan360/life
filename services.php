@@ -451,218 +451,101 @@
     <section id="services">
         <div class="p-5 mb-4 bg-light text-light">
             <div class="container   py-5 text-center">
-                <h1 class="display-4 fw-bold">Professional Counseling Services</h1>
+                <h1 class="display-4 fw-bold">Professional Counselling Services</h1>
                 <p class="col-md-8 mx-auto fs-5">
-                    Explore our range of professional counseling services aimed at providing support and guidance for your mental well-being.
+                    Explore our range of professional Counselling services aimed at providing support and guidance for your mental well-being.
                 </p>
             </div>
         </div>
-
-
-
         <div class="container py-5">
-            <h2 class="fw-bold section-title">Marriage Consultancy Services</h2>
+            <h2 class="fw-bold section-title">Marriage & relationships Counselling </h2>
             <div class="row">
                 <div class="col">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-heart me-2 text-pink"></i> Pre-Marital Counseling
+                                    <i class="fas fa-ring me-2 text-pink"></i> Pre-Marital Counselling
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-handshake me-2 text-pink"></i> Conflict Resolution
+                                    <i class="fas fa-heart-broken me-2 text-pink"></i> Breakup Counselling
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-comments me-2 text-pink"></i> Communication Skills
+                                    <i class="fas fa-exclamation-triangle me-2 text-pink"></i> Counselling on Toxic Relationships
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-heartbeat me-2 text-pink"></i> Marriage Enrichment
+                                    <i class="fas fa-coins me-2 text-pink"></i> Money and Relationships
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-child me-2 text-pink"></i> Parenting Support
+                                    <i class="fas fa-question-circle me-2 text-pink"></i> What is the Purpose of Life
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-heart-broken me-2 text-pink"></i> Infidelity Recovery
+                                    <i class="fas fa-hand-holding-heart me-2 text-pink"></i> Why One Should Marry
                                 </div>
                             </div>
                         </div>
                         <div class="col mb-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <i class="fas fa-user-alt-slash text-pink me-2"></i> Separation Advice
+                                    <i class="fas fa-user-check me-2 text-pink"></i> How to Get Control of Our Lives
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-smile-beam me-2 text-pink"></i> Happiness course​
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <i class="fas fa-lightbulb me-2 text-pink"></i> Secret about narcissim
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="card bg-pink text-white">
+                                <div class="card-body">
+                                    <h3 class="card-title">Detailed Information</h3>
+                                    <p class="card-text">
+                                        Our marriage consultancy services are designed to help you build a strong and lasting relationship. From pre-marital Counselling to ongoing relationship advice, we've got you covered.
+                                    </p>
+                                    <a href="./marriageservice.php" class="btn btn-outline-light">Learn More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="card bg-pink text-white">
-                        <div class="card-body">
-                            <h3 class="card-title">Detailed Information</h3>
-                            <p class="card-text">
-                                Our marriage consultancy services are designed to help you build a strong and lasting relationship. From pre-marital counseling to ongoing relationship advice, we've got you covered.
-                            </p>
-                            <a href="./marriageservice.php" class="btn btn-outline-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 
-        <div class="container py-5">
-            <h2 class="fw-bold section-title">Financial Consultancy Services</h2>
-            <div class="row">
-                <div class="col">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-wallet me-2 text-primary"></i> Personal Finance Planning
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-chart-line me-2 text-primary"></i> Investment Strategies
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-piggy-bank me-2 text-primary"></i> Retirement Planning
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-file-invoice-dollar me-2 text-primary"></i> Tax Optimization
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-hand-holding-usd me-2 text-primary"></i> Debt Management
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-scroll me-2 text-primary"></i> Estate Planning
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-shield-alt me-2 text-primary"></i> Insurance Consulting
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-coins me-2 text-primary"></i> Wealth Management
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-calculator me-2 text-primary"></i> Budgeting Advice
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-chart-pie me-2 text-primary"></i> Credit Score Improvement
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-business-time me-2 text-primary"></i> Business Financial Planning
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-save me-2 text-primary"></i> Savings Strategies
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-comments-dollar me-2 text-primary"></i> Loan Consultation
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-exclamation-triangle me-2 text-primary"></i> Risk Management
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <i class="fas fa-chalkboard-teacher me-2 text-primary"></i> Financial Education
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="card bg-primary text-white">
-                        <div class="card-body">
-                            <h3 class="card-title">Detailed Information</h3>
-                            <p class="card-text">
-                                Achieve your financial goals with our expert advice. Whether it's personal finance, investment strategies, or business financial planning, we provide comprehensive financial consultancy.
-                            </p>
-                            <a href="./financeservice.php" class="btn btn-outline-light">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- Life Coaching Services -->
-        <div class="container py-5">
+
+                <!-- Life Coaching Services -->
+                <!-- <div class="container py-5">
             <h2 class="fw-bold section-title">Life Coaching Services</h2>
             <div class="row">
                 <div class="col">
@@ -788,122 +671,259 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Career Consultancy Services -->
-        <!-- Career Consultancy Services -->
-        <div class="container py-5">
-            <h2 class="fw-bold section-title text-center mb-4">Career Consultancy Services</h2>
-            <div class="row">
-                <div class="col">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-user-tie me-2"></i> Career Assessment
+        </div> -->
+                <!-- Career Consultancy Services -->
+                <!-- Career Consultancy Services -->
+                <div class="container py-5">
+                    <h2 class="fw-bold section-title text-center mb-4">Career Consultancy Services</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-user-tie me-2"></i> Branding through LinkedIn
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-briefcase me-2"></i> Effective resume writing
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-clipboard-list me-2"></i> Corporate growth
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-comments me-2"></i> How to deal with a difficult boss
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-network-wired me-2"></i> Right attitude in work place
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-chalkboard-teacher me-2"></i> How to deal with stress
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-chart-line me-2"></i> Gig economy
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-plane-departure me-2"></i> multiple income options
+
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-people-arrows me-2"></i> Retirement plan
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card  text-info">
+                                        <div class="card-body">
+                                            <i class="fas fa-cogs me-2"></i> Skill Development
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col mb-4">
-                            <div class="card text-info">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="card bg-info text-white">
                                 <div class="card-body">
-                                    <i class="fas fa-briefcase me-2"></i> Job Search Strategies
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-clipboard-list me-2"></i> Resume Building
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-comments me-2"></i> Interview Coaching
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-network-wired me-2"></i> Networking Skills
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-chalkboard-teacher me-2"></i> Professional Development
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-chart-line me-2"></i> Career Progression
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-plane-departure me-2"></i> Expatriate Career Advice
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-people-arrows me-2"></i> Work-Life Balance
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card  text-info">
-                                <div class="card-body">
-                                    <i class="fas fa-cogs me-2"></i> Skill Development
+                                    <h3 class="card-title">Detailed Information</h3>
+                                    <p class="card-text">
+                                        Enhance your career with our consultancy services. From career assessment to interview coaching, we offer comprehensive support to help you achieve your professional goals.
+                                    </p>
+                                    <a href="./careerservice.php" class="btn btn-outline-light">Learn More</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="card bg-info text-white">
-                        <div class="card-body">
-                            <h3 class="card-title">Detailed Information</h3>
-                            <p class="card-text">
-                                Enhance your career with our consultancy services. From career assessment to interview coaching, we offer comprehensive support to help you achieve your professional goals.
-                            </p>
-                            <a href="./careerservice.php" class="btn btn-outline-light">Learn More</a>
+
+
+                <div class="container py-5">
+                    <h2 class="fw-bold section-title">Real estate and finance Consultancy Services</h2>
+                    <div class="row">
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-wallet me-2 text-primary"></i> choosing the city and property
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-chart-line me-2 text-primary"></i> Plot vs flat
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-piggy-bank me-2 text-primary"></i> Importance of vaastu 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-file-invoice-dollar me-2 text-primary"></i> Ways to earn money from real estate
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-hand-holding-usd me-2 text-primary"></i> How to acquire multiple properties
+
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-scroll me-2 text-primary"></i>Important and significance of rental yield
+
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-shield-alt me-2 text-primary"></i> Home Loans
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-coins me-2 text-primary"></i> Importance of making will 
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-calculator me-2 text-primary"></i> Asset restructuring & Inheritance 
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-chart-pie me-2 text-primary"></i> Credit Score Improvement
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-business-time me-2 text-primary"></i> Business Financial Planning
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-save me-2 text-primary"></i> Savings Strategies
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-comments-dollar me-2 text-primary"></i> Loan Consultation
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-exclamation-triangle me-2 text-primary"></i> Risk Management
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <i class="fas fa-chalkboard-teacher me-2 text-primary"></i> Financial Education
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <h3 class="card-title">Detailed Information</h3>
+                                    <p class="card-text">
+                                        Achieve your financial goals with our expert advice. Whether it's personal finance, investment strategies, or business financial planning, we provide comprehensive financial consultancy.
+                                    </p>
+                                    <a href="./financeservice.php" class="btn btn-outline-light">Learn More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-
-
     </section>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="footer mt-5 mb-0">
-        <div class="container">
-            <h1>Welcome to Our Counseling Center</h1>
-            <p>Our mission is to provide quality mental health services to our community.</p>
-            <div class="footer-content">
-                <span>Stay Connected with Us</span>
-                <div class="social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-5 bg-dark text-light py-4">
+        <div class="container text-center">
+            <h3 class="mb-3">Welcome to Our Counselling Center</h3>
+            <p class="mb-4">Our mission is to provide quality mental health services to our community.</p>
+            <div class="footer-content d-flex flex-column align-items-center">
+                <span class="mb-2">Stay Connected with Us</span>
+                <div class="social-media d-flex gap-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-light fs-4" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-light fs-4" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank" class="text-light fs-4" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -921,6 +941,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <!-- AOS Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -525,7 +525,6 @@ $conn->close();
 
 <body>
 
-
     <nav class="navbar navbar-expand-lg navbar-light fixed-top transparent custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -558,48 +557,56 @@ $conn->close();
 
     <section id="services">
         <div class="p-5 mb-4 bg-light bg-gradient text-dark">
-            <div class="container   py-5 text-center">
-                <h1 class="display-4 fw-bold">Finance Counseling Services</h1>
+            <div class="container py-5 text-center">
+                <h1 class="display-4 fw-bold">Real Estate & Financial Counselling Services</h1>
                 <p class="col-md-8 mx-auto fs-5">
-                    "Financial counseling can be a vital part of building a strong foundation for your future together. It's about understanding your financial goals, managing resources effectively, and navigating financial challenges as a team."
+                    Empower your future with expert guidance in real estate and finance. Our counselling services help you make informed property investments, manage your finances wisely, and build long-term financial stability. Whether you're buying your first home or planning your financial future, we're here to support you every step of the way.
                 </p>
-
             </div>
         </div>
-
-
-
-
-
-
-
-
     </section>
 
-
-    <section>
-        <div class="container-fluid mt-4">
-            <div class="video-card align-items-center text-dark">
-                <?php if ($video !== null) : ?>
-                    <div class="video-item text-center" id="video-<?php echo htmlspecialchars($video['id']); ?>">
-                        <div class="video-container">
-                            <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
+    <section id="real-estate-counselling" class="py-5 bg-grey text-dark">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 fw-bold">Comprehensive Real Estate Counselling</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row g-4">
+                        <div class="col-md-6 ">
+                            <ul class="list-group shadow-sm rounded-3 ">
+                                <li class="list-group-item border-0"><i class="fas fa-hand-holding-usd text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Ways to earn money from real estate</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-file-contract text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Importance of making a will</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-piggy-bank text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Real estate as an investment class</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-th-large text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Plot vs flat – detailed comparison</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-map-marked text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Choosing city and property wisely</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-sliders-h text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Project comparison – FAR, amenities, etc.</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-warehouse text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Choosing a flat in multi-storey projects</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-compass text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Importance of Vaastu</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-search-location text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Understanding micro-markets</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-clone text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Acquiring multiple properties</span></li>
+                            </ul>
                         </div>
-                        <h4 class=" mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
-                        <p class="mb-2"><?php echo htmlspecialchars($video['description']); ?></p>
-                        <!-- <div>
-                            <a href="https://www.youtube.com/watch?v=<?php echo htmlspecialchars($video['video_link']); ?>" class="btn btn-outline-success" target="_blank">Watch Video</a>
-                        </div> -->
+                        <div class="col-md-6">
+                            <ul class="list-group shadow-sm rounded-3">
+                                <li class="list-group-item border-0"><i class="fas fa-sync-alt text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Real estate market cycles</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-balance-scale-right text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Risk-reward ratio</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-store-alt text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Commercial/SCO/assured return options</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-user-alt text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Age-based investment strategies</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-percentage text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Rental yield importance</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-chart-area text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">REITs – present & future</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-university text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Home loans and leverage</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-share-square text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Property inheritance</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-exchange-alt text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Asset restructuring</span></li>
+                                <li class="list-group-item border-0"><i class="fas fa-gavel text-success me-2"></i> <span style="font-size:1.15rem; font-weight:bold;">Impact of government policies</span></li>
+                            </ul>
+                        </div>
                     </div>
-                <?php else : ?>
-                    <p>No video found.</p>
-                <?php endif; ?>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <section class="about py-5 bg-grey">
+    <section class="about py-5 bg-light">
         <div class="container">
             <h2 class="text-center text-dark display-4 fw-bold mb-5">What You Will Understand in the Course</h2>
             <div class="row">
@@ -625,24 +632,52 @@ $conn->close();
         </div>
     </section>
 
+    <section>
+        <div class="container-fluid mt-4">
+            <div class="video-card align-items-center text-dark">
+                <?php if ($video !== null) : ?>
+                    <div class="video-item text-center" id="video-<?php echo htmlspecialchars($video['id']); ?>">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/<?php echo htmlspecialchars($video['video_link']); ?>" allowfullscreen></iframe>
+                        </div>
+                        <h4 class=" mb-2"><?php echo htmlspecialchars($video['topic']); ?></h4>
+                        <p class="mb-2"><?php echo htmlspecialchars($video['description']); ?></p>
+                        <!-- <div>
+                            <a href="https://www.youtube.com/watch?v=<?php echo htmlspecialchars($video['video_link']); ?>" class="btn btn-outline-success" target="_blank">Watch Video</a>
+                        </div> -->
+                    </div>
+                <?php else : ?>
+                    <p>No video found.</p>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <footer class="footer    mb-0">
-        <div class="container">
-            <h1>Welcome to Our Counseling Center</h1>
-            <p>Our mission is to provide quality mental health services to our community.</p>
-            <div class="footer-content">
-                <span>Stay Connected with Us</span>
-                <div class="social-media">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <footer class="footer mt-5 bg-dark text-light py-4">
+        <div class="container text-center">
+            <h3 class="mb-3">Welcome to Our Counselling Center</h3>
+            <p class="mb-4">Our mission is to provide quality mental health services to our community.</p>
+            <div class="footer-content d-flex flex-column align-items-center">
+                <span class="mb-2">Stay Connected with Us</span>
+                <div class="social-media d-flex gap-4">
+                    <a href="https://www.facebook.com" target="_blank" class="text-light fs-4" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="text-light fs-4" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com" target="_blank" class="text-light fs-4" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -659,8 +694,6 @@ $conn->close();
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
